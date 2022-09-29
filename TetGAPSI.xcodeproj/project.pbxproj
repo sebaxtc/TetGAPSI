@@ -11,6 +11,10 @@
 		F43752F828E525A3008CFACD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43752F728E525A3008CFACD /* ContentView.swift */; };
 		F43752FA28E525A4008CFACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43752F928E525A4008CFACD /* Assets.xcassets */; };
 		F43752FD28E525A4008CFACD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43752FC28E525A4008CFACD /* Preview Assets.xcassets */; };
+		F437530428E525C6008CFACD /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437530328E525C6008CFACD /* ItemView.swift */; };
+		F437530628E525D5008CFACD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437530528E525D5008CFACD /* ViewModel.swift */; };
+		F437531828E56736008CFACD /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437531728E56736008CFACD /* ResponseModel.swift */; };
+		F437531A28E6213B008CFACD /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437531928E6213B008CFACD /* SuggestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F43752F728E525A3008CFACD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F43752F928E525A4008CFACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F43752FC28E525A4008CFACD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F437530328E525C6008CFACD /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		F437530528E525D5008CFACD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F437531728E56736008CFACD /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		F437531928E6213B008CFACD /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				F43752F728E525A3008CFACD /* ContentView.swift */,
 				F43752F928E525A4008CFACD /* Assets.xcassets */,
 				F43752FB28E525A4008CFACD /* Preview Content */,
+				F437530328E525C6008CFACD /* ItemView.swift */,
+				F437531928E6213B008CFACD /* SuggestionView.swift */,
+				F437531728E56736008CFACD /* ResponseModel.swift */,
+				F437530528E525D5008CFACD /* ViewModel.swift */,
 			);
 			path = TetGAPSI;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F437531828E56736008CFACD /* ResponseModel.swift in Sources */,
 				F43752F828E525A3008CFACD /* ContentView.swift in Sources */,
+				F437530428E525C6008CFACD /* ItemView.swift in Sources */,
+				F437530628E525D5008CFACD /* ViewModel.swift in Sources */,
+				F437531A28E6213B008CFACD /* SuggestionView.swift in Sources */,
 				F43752F628E525A3008CFACD /* TetGAPSIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
